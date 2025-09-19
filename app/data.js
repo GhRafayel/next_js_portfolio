@@ -1,32 +1,21 @@
 const data =
 {
-  // skills: [
-  //     { 
-  //       icon: "fab fa-html5", 
-  //       name: "HTML5", 
-  //       description: "Semantic markup and web accessibility"
-  //     },
-  //     { icon: "fab fa-css3", name: "CSS3", description: "Modern styling and responsive design" },
-  //     { icon: "fab fa-bootstrap", name: "Bootstrap", description: "Responsive design framework" },
-  //     { icon:  "fas fa-palette", name: "Tailwind CSS", description: "Utility-first CSS framework" },
-  //     { icon: "fab fa-react", name: "React.js", description: "Building dynamic and responsive user interfaces" },
-  //     { icon: "fab fa-js", name: "JavaScript", description: "Creating interactive web experiences" },
-  //     { icon: "fab fa-node", name: "Node.js", description: "Server-side JavaScript development" },
-  //     { icon: "fas fa-server", name: "Express.js", description: "Web application framework for Node.js" },
-  //     { icon: "fab fa-cuttlefish", name: "C", description: "Fundamental functional programming concepts" },
-  //     { icon: "fab fa-cuttlefish", name: "C++", description: "General-purpose programming language for web and data" },
-  //     { icon: "fas fa-database", name: "MongoDB", description: "NoSQL database management" },
-  //     { icon: "fas fa-database", name: "MySQL", description: "Relational database management" },
-  //     { icon: "fab fa-git-alt", name: "Git", description: "Version control and collaboration" }
-  //   ],
   skills: [
+     {
+      name: "HTML",
+      description: "Responsive layouts with HTML5 & CSS",
+      icon: "fab fa-html5",
+      bgColor: "#fff5eb",
+      color: "#ed8936",
+      level: "92%",
+    },
     {
-      name: "React Development",
-      description: "Building dynamic UIs with React & Next.js",
-      icon: "fab fa-react",
-      bgColor: "#ffedeb",
-      color: "#fd5c63",
-      level: "90%",
+      name: "CSS",
+      description: "Modern styling with CSS3 & Tailwind CSS and Bootstrap",
+      icon: "fab fa-css3",
+      bgColor: "#fff5eb",
+      color: "#ed8936",
+      level: "92%",
     },
     {
       name: "JavaScript",
@@ -37,17 +26,34 @@ const data =
       level: "95%",
     },
     {
-      name: "HTML/CSS",
-      description: "Responsive layouts with HTML5 & CSS3",
-      icon: "fab fa-html5",
-      bgColor: "#fff5eb",
-      color: "#ed8936",
-      level: "92%",
+      name: "React Development",
+      description: "Building dynamic UIs with React & Next.js",
+      icon: "fab fa-react",
+      bgColor: "#ffedeb",
+      color: "#fd5c63",
+      level: "90%",
     },
+    
     {
       name: "Node.js",
-      description: "Server-side apps & APIs",
+      description: "Server-side apps & APIs with Node.js & Express",
       icon: "fab fa-node-js",
+      bgColor: "#f0fff4",
+      color: "#48bb78",
+      level: "85%",
+    },
+    {
+      name: "C/C++",
+      description: "System programming and performance-critical applications",
+      icon: "fab fa-cuttlefish",
+      bgColor: "#f0fff4",
+      color: "#48bb78",
+      level: "85%",
+    },
+    {
+      name: "MySQL/M.DB",
+      description: "Database expertise with MySQL & MongoDB",
+      icon: "fas fa-database",
       bgColor: "#f0fff4",
       color: "#48bb78",
       level: "85%",
@@ -62,46 +68,18 @@ const data =
       codeLink: "https://github.com/GhRafayel/Rock-Paper-Scissors-next.js" 
     },
     { 
-      name: "Keno Game", 
-      tech: "JavaScript, HTML, CSS3", 
-      icon: "fas fa-dice",
-      demoLink: "/projects/Keno/page",
-      codeLink: "https://github.com/your-username/your-repo" 
-    },
-    { 
       name: "Calculator", 
       tech: "Next.js, Tailwind CSS", 
       icon: "fas fa-calculator",
       demoLink: "/projects/Calculator",
       codeLink: "https://github.com/your-username/your-repo" 
     },
-    { 
-      name: "Calculator", 
+     { 
+      name: "Rock Paper Scissors", 
       tech: "Next.js, Tailwind CSS", 
-      icon: "fas fa-calculator",
-      demoLink: "/projects/Calculator",
-      codeLink: "https://github.com/your-username/your-repo" 
-    },
-    { 
-      name: "Calculator", 
-      tech: "Next.js, Tailwind CSS", 
-      icon: "fas fa-calculator",
-      demoLink: "/projects/Calculator",
-      codeLink: "https://github.com/your-username/your-repo" 
-    },
-    { 
-      name: "Calculator", 
-      tech: "Next.js, Tailwind CSS", 
-      icon: "fas fa-calculator",
-      demoLink: "/projects/Calculator",
-      codeLink: "https://github.com/your-username/your-repo" 
-    },
-    { 
-      name: "Calculator", 
-      tech: "Next.js, Tailwind CSS", 
-      icon: "fas fa-calculator",
-      demoLink: "/projects/Calculator",
-      codeLink: "https://github.com/your-username/your-repo" 
+      icon: "fas fa-hand-scissors",
+      demoLink: "/projects/RockPaperScissors",
+      codeLink: "https://github.com/GhRafayel/Rock-Paper-Scissors-next.js" 
     },
     { 
       name: "Calculator", 
